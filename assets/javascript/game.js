@@ -21,6 +21,7 @@ var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.l
 
 if(computerGuess==userGuess){
 wins++;
+alert("good job");
 
 }
 else if(computerGuess!=userGuess) {
